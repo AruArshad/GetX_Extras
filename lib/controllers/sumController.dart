@@ -13,6 +13,7 @@ class SumController extends GetxController {
       count1.value = storage.read('count1');
       count2.value = storage.read('count2');
     }
+    //testing
     print("Screen Height: " + Get.height.toString());
     print("Screen Width: " + Get.width.toString());
     print("is iOS?: " + GetPlatform.isIOS.toString());
